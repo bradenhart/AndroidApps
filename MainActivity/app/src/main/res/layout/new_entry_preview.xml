@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edittextthing"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="type something"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edittextthing"
+        android:gravity="center"
+        android:id="@+id/preview_box"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:text="Text"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="#222222"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/preview_selection_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preview_box"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:layout_marginRight="10dp"
+            android:onClick="onClickAddThisEntry"/>
+        <Button
+            android:id="@+id/edit_entry_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="edit"
+            android:onClick="onClickEditThisPreview"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/txtButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/preview_selection_buttons"
+        android:layout_centerHorizontal="true"
+        android:text="press me"/>
+
+</RelativeLayout>

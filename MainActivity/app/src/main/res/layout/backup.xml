@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/corner_button"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:text="Go Back"
+                    android:onClick="onClickGoBackHome" />
+
+                <LinearLayout
+                    android:id="@+id/top_weekbar"
+                    android:layout_width="500dp"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_toRightOf="@id/corner_button">
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                    <Button android:layout_width="60dp"
+                        android:layout_height="100dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/side_panel"
+                    android:layout_width="50dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical"
+                    android:layout_below="@id/corner_button">
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:text="Hello"/>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp" />
+                </LinearLayout>
+
+                <GridLayout
+                    android:id="@+id/grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:layout_below="@id/top_weekbar"
+                    android:layout_toRightOf="@id/side_panel">
+
+                </GridLayout>
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="13"
+        android:layout_gravity="fill"
+        android:background="#aaa2af">
+
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_eightAM"
+            android:layout_row="0"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_nineAM"
+            android:layout_row="1"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_tenAM"
+            android:layout_row="2"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_elevenAM"
+            android:layout_row="3"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_twelvePM"
+            android:layout_row="4"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_onePM"
+            android:layout_row="5"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_twoPM"
+            android:layout_row="6"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_threePM"
+            android:layout_row="7"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_fourPM"
+            android:layout_row="8"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_fivePM"
+            android:layout_row="9"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_sixPM"
+            android:layout_row="10"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_sevenPM"
+            android:layout_row="11"/>
+        <TextView
+            style="@style/AppTheme.time_blocks_2"
+            android:text="@string/time_eightPM"
+            android:layout_row="12"/>
+
+        <TextView
+            style="@style/AppTheme.day_entry_grid_column"
+            android:layout_row="0"
+            android:layout_marginLeft="10dp"
+            android:text="test"/>
+        <TextView
+            style="@style/AppTheme.day_entry_grid_column"
+            android:layout_row="1"
+            android:layout_marginLeft="10dp"
+            android:text="test"/>
+        <TextView
+            style="@style/AppTheme.day_entry_grid_column"
+            android:layout_row="2"
+            android:layout_marginLeft="10dp"
+            android:text="test"/>
+        <TextView
+            style="@style/AppTheme.day_entry_grid_column"
+            android:layout_row="3"
+            android:layout_marginLeft="10dp"
+            android:text="test"/>
+    </GridLayout>
+
+    <!--<GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:columnCount="7"
+            android:rowCount="13"
+            android:layout_gravity="fill"
+            android:background="#ffdde8ce"
+            style="@style/AppTheme.grid_layout">
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_eightAM"
+                android:layout_row="0"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_nineAM"
+                android:layout_row="1"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_tenAM"
+                android:layout_row="2"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_elevenAM"
+                android:layout_row="3"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_twelvePM"
+                android:layout_row="4"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_onePM"
+                android:layout_row="5"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_twoPM"
+                android:layout_row="6"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_threePM"
+                android:layout_row="7"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_fourPM"
+                android:layout_row="8"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_fivePM"
+                android:layout_row="9"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_sixPM"
+                android:layout_row="10"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_sevenPM"
+                android:layout_row="11"/>
+            <TextView
+                style="@style/AppTheme.time_blocks"
+                android:text="@string/time_eightPM"
+                android:layout_row="12"/>
+
+            &lt;!&ndash; Monday column &ndash;&gt;
+            <TextView
+                style="@style/AppTheme.monday_grid_column"
+                android:text="@string/paper_code_phsi232"
+                android:layout_row="2"/>
+            <TextView
+                style="@style/AppTheme.monday_grid_column"
+                android:text="@string/paper_code_cosc242"
+                android:textAlignment="center"
+                android:layout_row="3"/>
+            <TextView
+                style="@style/AppTheme.monday_grid_column"
+                android:text="@string/paper_code_bsns106"
+                android:layout_row="7"/>
+            <TextView
+                style="@style/AppTheme.monday_grid_column"
+                android:text="@string/paper_code_cosc242"
+                android:layout_row="8"/>
+
+            &lt;!&ndash; Tuesday column &ndash;&gt;
+            <TextView
+                style="@style/AppTheme.tuesday_grid_column"
+                android:text="@string/paper_code_phsi232"
+                android:layout_row="2"/>
+            <TextView
+                style="@style/AppTheme.tuesday_grid_column"
+                android:text="@string/paper_code_cosc244"
+                android:textAlignment="center"
+                android:layout_row="3"/>
+            <TextView
+                style="@style/AppTheme.tuesday_grid_column"
+                android:text="@string/paper_code_cosc242"
+                android:layout_row="4"/>
+            <TextView
+                style="@style/AppTheme.tuesday_grid_column"
+                android:layout_row="5"/>
+            <TextView
+                style="@style/AppTheme.tuesday_grid_column"
+                android:text="@string/paper_code_cosc244"
+                android:layout_row="6"/>
+            <TextView
+                style="@style/AppTheme.tuesday_grid_column"
+                android:layout_row="7"/>
+
+            &lt;!&ndash; Wednesday column&ndash;&gt;
+            <TextView
+                style="@style/AppTheme.wednesday_grid_column"
+                android:text="@string/paper_code_phsi232"
+                android:layout_row="2"/>
+            <TextView
+                style="@style/AppTheme.wednesday_grid_column"
+                android:text="@string/paper_code_bsns106"
+                android:layout_row="3"/>
+            <TextView
+                style="@style/AppTheme.wednesday_grid_column"
+                android:text="@string/paper_code_bsns106"/>
+            <TextView style="@style/AppTheme.wednesday_grid_column"/>
+
+            &lt;!&ndash; Thursday column &ndash;&gt;
+            <TextView
+                style="@style/AppTheme.thursday_grid_column"
+                android:text="@string/paper_code_cosc244"
+                android:layout_row="1"
+                 />
+
+            <TextView
+                style="@style/AppTheme.thursday_grid_column"
+                android:text="@string/paper_code_cosc242"
+                android:textAlignment="center"
+                android:layout_row="3"/>
+            <TextView
+                style="@style/AppTheme.thursday_grid_column"
+                android:text="@string/paper_code_phsi232"
+                android:layout_row="6"/>
+
+            &lt;!&ndash; Friday column &ndash;&gt;
+            <TextView
+                style="@style/AppTheme.friday_grid_column"
+                android:text="@string/paper_code_cosc244"
+                android:layout_row="3"/>
+            <TextView
+                style="@style/AppTheme.friday_grid_column"
+                android:text="@string/paper_code_cosc242"/>
+
+
+
+        </GridLayout>
+-->
+
+</LinearLayout>

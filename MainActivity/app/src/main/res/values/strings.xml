@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="maplink">www.reddit.com</string>
+
+    <string name="back_button">back</string>
+    <string name="forward_button">next</string>
+    <string name="paper_label">Paper</string>
+    <string name="paper_code_textfield_hint">Start entering paper code</string>
+    <string name="room_label">Room</string>
+    <string name="type_label">Type</string>
+
+    <!--  Short versions of Weekday names -->
+    <string name="weekday_short_monday">Mon</string>
+    <string name="weekday_short_tuesday">Tue</string>
+    <string name="weekday_short_wednesday">Wed</string>
+    <string name="weekday_short_thursday">Thu</string>
+    <string name="weekday_short_friday">Fri</string>
+    <string name="weekday_short_saturday">Sat</string>
+    <string name="weekday_short_sunday">Sun</string>
+
+    <!-- Full versions of Weekday names  -->
+    <string name="weekday_full_monday">Monday</string>
+    <string name="weekday_full_tuesday">Tuesday</string>
+    <string name="weekday_full_wednesday">Wednesday</string>
+    <string name="weekday_full_thursday">Thursday</string>
+    <string name="weekday_full_friday">Friday</string>
+    <string name="weekday_full_saturday">Saturday</string>
+    <string name="weekday_full_sunday">Sunday</string>
+
+    <!--  Times written in a constant format -->
+    <string name="time_eightAM">08:\n00</string>
+    <string name="time_nineAM">09:\n00</string>
+    <string name="time_tenAM">10:\n00</string>
+    <string name="time_elevenAM">11:\n00</string>
+    <string name="time_twelvePM">12:\n00</string>
+    <string name="time_onePM">13:\n00</string>
+    <string name="time_twoPM">14:\n00</string>
+    <string name="time_threePM">15:\n00</string>
+    <string name="time_fourPM">16:\n00</string>
+    <string name="time_fivePM">17:\n00</string>
+    <string name="time_sixPM">18:\n00</string>
+    <string name="time_sevenPM">19:\n00</string>
+    <string name="time_eightPM">20:\n00</string>
+
+    <!--  Lecture info written in one full string, for testing only -->
+    <string name="physics_lecture_text">PHSI232\nLecture\nPX314</string>
+    <string name="cosc242_lecture_text">COSC242\nLecture\nARCH4</string>
+    <string name="cosc244_lecture_text">COSC244\nLecture\nARCH2</string>
+    <string name="bsns_lecture_text">BSNS106\nLecture\nCAST1</string>
+
+    <!--  All paper codes for 2014 sem2 papers -->
+    <string name="paper_code_phsi232">PHSI232</string>
+    <string name="paper_code_cosc242">COSC242</string>
+    <string name="paper_code_cosc244">COSC244</string>
+    <string name="paper_code_bsns106">BSNS106</string>
+
+    <!--  All commitment types for my Papers -->
+    <string name="schedule_type_lecture">Lecture</string>
+    <string name="schedule_type_tutorial">Tutorial</string>
+    <string name="schedule_type_opt_tutorial">Tutorial (opt.)</string>
+    <string name="schedule_type_workshop">Workshop</string>
+    <string name="schedule_type_lab">Lab</string>
+
+    <!--later I can make an array for each building (e.g Archway, Burns) to store room number-->
+    <!--  Room codes for each paper -->
+    <string name="room_codes_arch2">ARCH2</string>
+    <string name="room_codes_arch4">ARCH4</string>
+    <string name="room_codes_burns2">BURNS2</string>
+    <string name="room_codes_cast1">CAST1</string>
+    <string name="room_codes_cog04">COG04</string>
+    <string name="room_codes_px314">PX314</string>
+    <string name="room_codes_pxg06">PXG06</string>
+    <string name="room_codes_owg34">OWG34</string>
+    <string name="room_codes_owg38">OWG38</string>
+    <string name="room_codes_t101">T101</string>
+
+
+    <!-- room locations using shorten Google Maps links,
+         pinned to the room's coordinates
+    <string name="CHEM1">goo.gl/38r1qA</string>
+    <string name="PX314">goo.gl/JaFahq</string>
+    <string name="ARCH2">goo.gl/7JDdaN</string>
+    <string name="ARCH4">goo.gl/ULtshX</string>
+    <string name="BURNS2">goo.gl/VEI7A5</string>
+    <string name="CAST1">goo.gl/kf2uIq</string>
+    <string name="COG04">goo.gl/ZGzmmT</string>
+    <string name="PXG06">goo.gl/JaFahq</string>
+    <string name="OWG34">goo.gl/5tJoof</string>
+    <string name="OWG38">goo.gl/ZydwWD</string>
+    <string name="T101">goo.gl/cgnvjY</string> -->
+    <string name="done_button">DONE</string>
+    <string name="back_button_2">BACK</string>
+    <string name="edit_button">edit</string>
+    <string name="test_text">test text</string>
+    <string name="room_code_hint">Start entering room code</string>
+
+
+</resources>
