@@ -1,0 +1,168 @@
+<!--RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"-->
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:paddingLeft="5dp"
+        android:background="#ffef211e"/>
+
+    <LinearLayout
+        android:id="@+id/top_weekbar"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/AppTheme.weekday_buttons"
+            android:text="@string/weekday_short_monday"
+            android:onClick="onClickGoToMondayLayout"/>
+        <Button
+            style="@style/AppTheme.weekday_buttons"
+            android:text="@string/weekday_short_tuesday"/>
+        <Button
+            style="@style/AppTheme.weekday_buttons"
+            android:text="@string/weekday_short_wednesday"/>
+        <Button
+            style="@style/AppTheme.weekday_buttons"
+            android:text="@string/weekday_short_thursday"/>
+        <Button
+            style="@style/AppTheme.weekday_buttons"
+            android:text="@string/weekday_short_friday"/>
+    </LinearLayout>
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="1200dp"
+        android:layout_marginTop="100dp"
+        android:background="#abca">
+       <RelativeLayout
+           android:id="@+id/relativeLayout2"
+           android:layout_width="match_parent"
+           android:layout_height="1200dp"
+           android:background="#ff437aff">
+           </RelativeLayout>
+        </ScrollView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+<!--/RelativeLayout-->
+
+   <!-- PUT BACK INTO GRIDLAYOUT
+
+    <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_eightAM"
+            android:layout_row="0"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_nineAM"
+            android:layout_row="1"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_tenAM"
+            android:layout_row="2"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_elevenAM"
+            android:layout_row="3"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_twelvePM"
+            android:layout_row="4"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_onePM"
+            android:layout_row="5"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_twoPM"
+            android:layout_row="6"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_threePM"
+            android:layout_row="7"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_fourPM"
+            android:layout_row="8"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_fivePM"
+            android:layout_row="9"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_sixPM"
+            android:layout_row="10"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_sevenPM"
+            android:layout_row="11"/>
+        <TextView
+            style="@style/AppTheme.time_blocks"
+            android:text="@string/time_eightPM"
+            android:layout_row="12"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_column="1"
+            android:layout_row="0"/>
+
+
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_column="4"
+            android:layout_row="6"
+            android:text="thurs 2pm"
+            android:background="#89C4F4"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:text="tues 11am"
+            android:background="#89C4F4"
+            android:layout_column="5"
+            android:layout_row="1"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:text="thursday 10am"
+            android:layout_column="4"
+            android:layout_row="2"
+            android:background="#89C4F4"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:text="tues 11am"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:background="#89C4F4"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:text="wed 8am"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:background="#89C4F4"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:text="monday 10am"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:background="#89C4F4"/>
+
+
+    -->

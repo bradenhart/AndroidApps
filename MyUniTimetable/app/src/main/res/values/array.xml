@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Short versions of Weekday names -->
+    <string-array name="weekday_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+    </string-array>
+
+    <!-- Full versions of Weekday names  -->
+    <string-array name="weekday_full">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <!-- Times written in 12hr format with am/pm suffix -->
+    <string-array name="start_time_12hrs">
+        <item>8am</item>
+        <item>9am</item>
+        <item>10am</item>
+        <item>11am</item>
+        <item>12pm</item>
+        <item>1pm</item>
+        <item>2pm</item>
+        <item>3pm</item>
+        <item>4pm</item>
+        <item>5pm</item>
+        <item>6pm</item>
+        <item>7pm</item>
+    </string-array>
+
+    <string-array name="end_time_12hrs">
+        <item>9am</item>
+        <item>10am</item>
+        <item>11am</item>
+        <item>12pm</item>
+        <item>1pm</item>
+        <item>2pm</item>
+        <item>3pm</item>
+        <item>4pm</item>
+        <item>5pm</item>
+        <item>6pm</item>
+        <item>7pm</item>
+        <item>8pm</item>
+    </string-array>
+
+    <!--  Times written in a constant format -->
+    <string-array name="time_24hrs">
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+    </string-array>
+
+    <!--  All paper codes for 2014 sem2 papers -->
+    <string-array name="paper_codes">
+        <item>PHSI232</item>
+        <item>COSC242</item>
+        <item>COSC244</item>
+        <item>BSNS106</item>
+    </string-array>
+
+    <!--  All commitment types for my Papers -->
+    <string-array name="schedule_type">
+        <item>choose a schedule type</item>
+        <item>Lecture</item>
+        <item>Tutorial</item>
+        <item>Tutorial (opt.)</item>
+        <item>Workshop</item>
+        <item>Lab</item>
+    </string-array>
+
+    <!--later I can make an array for each building (e.g Archway, Burns) to store room number-->
+    <!--  Room codes for each paper -->
+    <string-array name="room_codes">
+        <item>ARCH2</item>
+        <item>ARCH4</item>
+        <item>BURNS2</item>
+        <item>CAST1</item>
+        <item>COG04</item>
+        <item>PX314</item>
+        <item>PXG06</item>
+        <item>OWG34</item>
+        <item>OWG38</item>
+        <item>T101</item>
+    </string-array>
+
+</resources>

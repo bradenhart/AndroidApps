@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- style for the grid layout -->
+    <style name="AppTheme.grid_layout">
+        <item name="android:columnWidth">70dp</item>
+    </style>
+
+    <!-- style for Weekday buttons in the top of the Main Screen -->
+    <style name="AppTheme.weekday_buttons">
+        <item name="android:layout_width">73dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginLeft">-3dp</item>
+        <item name="android:layout_marginRight">-3dp</item>
+        <item name="android:background">@drawable/day_buttons</item>
+    </style>
+
+    <!-- style for the time blocks on Main Screen -->
+    <style name="AppTheme.time_blocks">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:background">#FDE3A7</item>
+    </style>
+    <!--
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@drawable/border</item>
+        <item name="android:layout_column">1</item>
+        <item name="android:rowHeight">70dp</item>
+        <item name="android:layout_rowSpan">1</item>
+    </style>   -->
+
+    <!-- style for the time blocks on Main Screen -->
+    <style name="AppTheme.time_blocks_2">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@drawable/border</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:rowHeight">70dp</item>
+        <item name="android:layout_rowSpan">1</item>
+    </style>
+
+    <style name="AppTheme.day_entry_grid_column">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/cell</item>
+    </style>
+
+    <style name="AppTheme.day_entry_test_cells">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#fff0862c</item>
+    </style>
+
+    <!-- style for the grid cells used for testing -->
+    <style name="AppTheme.test_grid_cells">
+        <item name="android:layout_width">@dimen/timetable_entry_block_width</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">@dimen/timetable_entry_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/cell</item>
+        <item name="android:layout_column">4</item>
+    </style>
+
+    <!-- style for the cells in Monday column -->
+    <style name="AppTheme.monday_grid_column">
+        <item name="android:layout_width">@dimen/timetable_entry_block_width</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginBottom">-10dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_column">2</item>
+        <item name="android:textSize">@dimen/timetable_entry_font_size</item>
+
+        <item name="android:background">@drawable/cell</item>
+    </style>
+
+    <!-- style for the cells in Tuesday column -->
+    <style name="AppTheme.tuesday_grid_column">
+        <item name="android:layout_width">@dimen/timetable_entry_block_width</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_column">3</item>
+        <item name="android:textSize">@dimen/timetable_entry_font_size</item>
+
+        <item name="android:background">@drawable/cell</item>
+    </style>
+
+    <!-- style for the cells in Wednesday column -->
+    <style name="AppTheme.wednesday_grid_column">
+        <item name="android:layout_width">@dimen/timetable_entry_block_width</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_column">4</item>
+        <item name="android:textSize">@dimen/timetable_entry_font_size</item>
+        <item name="android:layout_marginBottom">-5dp</item>
+        <item name="android:background">@drawable/cell</item>
+    </style>
+
+    <!-- style for the cells in Thursday column -->
+    <style name="AppTheme.thursday_grid_column">
+        <item name="android:layout_width">@dimen/timetable_entry_block_width</item>
+        <item name="android:layout_marginBottom">-5dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_column">5</item>
+        <item name="android:textSize">@dimen/timetable_entry_font_size</item>
+        <item name="android:background">@drawable/cell</item>
+    </style>
+
+    <!-- style for the cells in Friday column -->
+    <style name="AppTheme.friday_grid_column">
+        <item name="android:layout_width">@dimen/timetable_entry_block_width</item>
+        <item name="android:layout_height">70dp</item>
+
+        <item name="android:layout_column">6</item>
+        <item name="android:textSize">@dimen/timetable_entry_font_size</item>
+        <item name="android:background">@drawable/cell</item>
+    </style>
+
+    <!--  style for the Weekday buttons on Main Screen -->
+    <style name="AppTheme.weekday_panel">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="AppTheme.edit_page_labels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

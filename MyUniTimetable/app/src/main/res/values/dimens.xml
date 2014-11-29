@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="timetable_entry_block_width">70dp</dimen>
+    <dimen name="timetable_entry_font_size">12sp</dimen>
+    <dimen name="left_panel_components_width">42dp</dimen>
+    <dimen name="left_panel_components_fontsize">12sp</dimen>
+    <dimen name="one_hour_standard_height">70dp</dimen>
+</resources>
