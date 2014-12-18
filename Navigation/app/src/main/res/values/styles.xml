@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- style for Weekday buttons in the top of the Main Screen -->
+    <style name="AppTheme.weekday_buttons">
+        <item name="android:layout_width">@dimen/column_width</item>
+        <item name="android:layout_height">@dimen/top_row_height</item>
+        <!--item name="android:layout_marginLeft">-3dp</item-->
+        <!--item name="android:layout_marginRight">-3dp</item-->
+        <item name="android:background">@drawable/day_buttons</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.edit_page_labels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.map_type_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.zebra_lines">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/medium_dark_gray</item>
+        <item name="android:layout_marginTop">59dp</item>
+    </style>
+
+    <style name="AppTheme.zebra__vert_lines">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/medium_dark_gray</item>
+    </style>
+
+</resources>
